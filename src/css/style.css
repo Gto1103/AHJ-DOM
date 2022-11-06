@@ -24,8 +24,8 @@
  
  .goblin {
 	width: 100%;
- }
- 
- .goblin-death {
-	width: 100%;
+	height: 100%;
+	background-image: url('../img/goblin.png');
+	background-size: contain;
+	background-repeat: no-repeat;
  }
