@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=document.querySelectorAll(".cell");let e=null;setInterval((function(){const n=Math.floor(Math.random()*t.length),l=t[n];l!==e&&(null!==e&&e.firstChild.remove(),e=l,function(t){const e=function(){const t=document.createElement("img");return t.className="goblin",t}();t.appendChild(e)}(e))}),2e3)})();
